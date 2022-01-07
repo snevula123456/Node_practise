@@ -5,21 +5,6 @@ const axios = require("axios");
 
 const ProductsURL = "https://fakestoreapi.com/products";
 
-const products = [
-  {
-    id: Math.random(),
-    title: "product 1",
-  },
-  {
-    id: Math.random(),
-    title: "product 2",
-  },
-  {
-    id: Math.random(),
-    title: "product 3",
-  },
-];
-
 // @route GET api/products
 // @desc  get the Products
 // @access Public
